@@ -1,0 +1,23 @@
+{
+  "name": "dnp-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.1",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@effect/data": "^0.14.2",
+    "@effect/io": "^0.32.2",
+    "@effect/schema": "^0.26.0",
+    "glob": "^10.3.3"
+  }
+}
